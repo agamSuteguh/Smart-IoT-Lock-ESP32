@@ -22,17 +22,17 @@ const int servoPin = 13;
 unsigned long lastBotCheck;
 bool isBotConnected = false;
 
-// Fungsi Tampilan OLED Keren
+//Led
 void drawUI(String lockStatus, String botMsg) {
   display.clearDisplay();
   
-  // --- HEADER: Credit & WiFi ---
+  // --- HEADER: 
   display.setTextSize(1);
   display.setTextColor(WHITE);
   display.setCursor(0, 0);
-  display.print("Github:agamsuteguh"); // Credit Github
+  display.print("Github:agamsuteguh"); 
   
-  // Ikon WiFi Sederhana
+  // Ikon WiFi 
   display.setCursor(105, 0);
   if (WiFi.status() == WL_CONNECTED) {
     display.print("[W]"); // Simbol WiFi Connected
@@ -47,7 +47,7 @@ void drawUI(String lockStatus, String botMsg) {
   int16_t x1, y1;
   uint16_t w, h;
   display.getTextBounds(lockStatus, 0, 0, &x1, &y1, &w, &h);
-  display.setCursor((128 - w) / 2, 25); // Auto center text
+  display.setCursor((128 - w) / 2, 25); 
   display.println(lockStatus);
 
   // --- FOOTER: Bot Status ---
