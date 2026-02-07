@@ -24,7 +24,7 @@ https://github.com/agamSuteguh/Smart-IoT-Lock-ESP32/blob/main/Hardware/Wiring_De
 2. Install library: `ESP32Servo`, `UniversalTelegramBot`, `Adafruit_SSD1306`, dan `ArduinoJson`.
 3. Buka telegram dan chat @idbot untuk mendapatkan `Chat ID` 
 4. Chat @BotFather kirim /newbot lalu isi sesuai pertanyaaa hingga ada `Use this token to access the HTTP API:` gunakan itu sebagai `Bot Token`,
-5. Masukkan `SSID Wifi`, `Password`, `Bot Token`, dan `Chat ID` di file `https://github.com/agamSuteguh/Smart-IoT-Lock-ESP32/blob/main/src/main.ino`.
+5. Masukkan `SSID Wifi`, `Password`, `Bot Token`, dan `Chat ID` di file https://github.com/agamSuteguh/Smart-IoT-Lock-ESP32/blob/main/src/main.ino.
 6. Upload kode ke ESP32.
 7. Gunakan perintah `/buka` dan `/kunci` pada bot Telegram Anda.
 
